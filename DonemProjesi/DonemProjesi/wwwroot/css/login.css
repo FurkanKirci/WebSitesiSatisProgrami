@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
+body {
+  background-image: url("../image/pexels-achraf-alan-1477156.jpg");
+  background-size: cover;
+  background-position: left bottom;
+  background-attachment: fixed;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container,
+.signup-container {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  text-align: center;
+  margin: 0 20px;
+  width: 400px;
+  transition: transform 0.5s;
+}
+
+.login-container h2,
+.signup-container h2 {
+  color: #1e1e1e;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 0;
+}
+
+.login-container form,
+.signup-container form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container input,
+.signup-container input {
+  
+  margin-bottom: 20px;
+  text-align: center;
+}
+/*-----------------------------------------------*/
+div.input-block {
+  position: relative;
+}
+div.input-block input {
+  font-weight: 500;
+  font-size: 16px;
+  color: #495055;
+  width: 366px;
+  padding: 15px 15px;
+  border-radius: 6px;
+  border: 2px solid #d9d9d9;
+  outline: none;
+}
+div.input-block span.placeholder {
+  position: absolute;
+  color: #6c757d;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.2s;
+  transform-origin: 0% 0%;
+  background: transparent;
+  pointer-events: none;
+}
+div.input-block input:valid + span.placeholder,
+div.input-block input:focus + span.placeholder {
+  transform: scale(1.1) translateY(-210%) translateX(-53%);
+  background: transparent;
+}
+div.input-block input:focus {
+  color: #00adb5;
+  border-color: #00adb5;
+}
+div.input-block input:focus + span.placeholder {
+  color: #284b63;
+}
+/*-----------------------------------------------*/
+.form-group .input-block{
+  width: 50%;
+}
+.signup-container .form-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.signup-container .form-group input {
+  flex-grow: 1;
+  width: 83%;
+  margin-right: 10px;
+  transition: margin-right 0.5s;
+}
+.signup-direct {
+  background-color: #1e1e1e;
+  text-decoration: none;
+  font-size: 14px;
+  color: #f5f5f5;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.5s;
+}
+button {
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.5s;
+}
+
+button:hover,
+a:hover {
+  background-color: #5c5c5c;
+}

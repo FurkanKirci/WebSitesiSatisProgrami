@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<body>
+    <header class="main-header">
+    <div class="container">
+        <a href="#" class="main-header__logo">
+            <img src="../image/white.jpg" alt="" class="img-logo" />FWM<img src="../image/white.jpg"
+                                                                            alt=""
+                                                                            class="img-logo" />
+        </a>
+        <nav class="main-nav">
+            <ul class="main-nav__items">
+                <li class="main-nav__item"><a href="/Main">Ana Sayfa</a></li>
+                <li class="main-nav__item"><a href="/Websites">Web Siteleri</a></li>
+                <li class="main-nav__item"><a href="/Contact">İletişim</a></li>
+                <li class="main-nav__item main-nav__item--login">
+                    <div class="btn-0">
+                            <a href="@Url.Action("RemoveSession", "Main")" class="btn-primary">@ViewBag.ButtonText</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    @RenderBody()
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+<script>
+
+</script>

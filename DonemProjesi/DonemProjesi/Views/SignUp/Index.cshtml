@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewData["Title"] = "SignUp Page";
+    Layout = "LoginLayout";
+}
+<div class="container">
+    <div class="signup-container">
+        <h2>Kayıt Ol</h2>
+        <form asp-action="SignUp" asp-controller="SignUp" method="post">
+            <div class="form-group">
+                <div class="input-block">
+                    <input type="text" name="name" required spellcheck="false" autocomplete="off" />
+                    <span class="placeholder">Ad</span>
+                </div>
+                <div class="input-block">
+                    <input type="text" name="surname" required spellcheck="false" autocomplete="off" />
+                    <span class="placeholder">Soyad</span>
+                </div>
+            </div>
+            <div class="input-block">
+                <input type="text" name="username" required spellcheck="false" autocomplete="off" />
+                <span class="placeholder">Kullanıcı Adı</span>
+            </div>
+            <div class="input-block">
+                <input type="email" required spellcheck="false" autocomplete="off" />
+                <span class="placeholder">email</span>
+            </div>
+
+            <div class="input-block">
+                <input type="password" name="password" required spellcheck="false" autocomplete="off" />
+                <span class="placeholder">Şifre</span>
+            </div>
+            <div class="input-block">
+                <input type="text" name="phonenumber" required spellcheck="false" autocomplete="off" />
+                <span class="placeholder">Telefon Numarası</span>
+            </div>
+            <div class="input-block">
+                <input type="text" name="country" required spellcheck="false" autocomplete="off" />
+                <span class="placeholder">Ülke</span>
+            </div>
+            <div class="input-block">
+                <input type="text" name="adress" required spellcheck="false" autocomplete="off" />
+                <span class="placeholder">Adres</span>
+            </div>
+            <button type="submit">Kayıt Ol</button>
+            <a href="/Login" class="signup-direct">Giriş Yap</a>
+            <a href="/Main" class="signup-direct">Ana Sayfa</a>
+        </form>
+    </div>
+</div>
+@section Scripts{
+    <link rel="stylesheet" href="~/login.css" />
+}

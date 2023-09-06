@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+.main-header {
+  background-color: #222831;
+  padding: 8px 16px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+}
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 100px);
+  font-family: "Roboto", sans-serif;
+}
+.main-nav__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.main-nav__item {
+  display: inline-block;
+  padding: 10px;
+}
+.main-nav__item a {
+  color: #eeeeee;
+  text-decoration: none;
+}
+.main-header__logo {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 21px;
+}
+.img-logo {
+  width: 15px;
+  height: 15px;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  margin: 0 2px;
+}
+.main-nav__item a:hover {
+  color: #bbbbbb;
+}
+.showcase {
+  background: linear-gradient(rgba(63, 75, 90, 0.2), rgba(42, 50, 60, 0.2)),
+    url("../image/pexels-felix-mittermeier-956999.jpg");
+  margin-top: 55px;
+  background-position: bottom;
+  background-size: cover;
+  height: 71vh;
+  position: relative;
+  background-attachment: fixed;
+}
+.showcase .content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 30px;
+  background: rgba(46, 76, 109, 0.3);
+  padding: 20px;
+  width: 60%;
+  border-radius: 10px;
+}
+.showcase h2 {
+  margin-top: 5px;
+}
+.how-it-works{
+  padding-bottom: 25px;
+}
+.how-it-works__icon {
+  font-size: 25px;
+  margin-bottom: 5px;
+  color: #00adb5;
+}
+.how-it-works h1 {
+  color: #222831;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 7px;
+  margin-bottom: 14px;
+}
+.content {
+  padding: 2px 50px;
+  text-align: center;
+}
+
+.hexagon {
+  background-image: url("../image/pexels-faik-akmd-1025469.jpg");
+  height: 70vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.hexagon h2 {
+  color: #eeeeee;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.hexagon-elements {
+  width: 450px;
+  height: 400px;
+  top: 15px;
+  background: transparent;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, 0px);
+}
+.hexagon__item {
+  width: 120px;
+  height: 100px;
+  background-size: cover;
+  position: absolute;
+  transition: 0.3s;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.hexagon__item:hover {
+  cursor: pointer;
+  transform: scale(1.077);
+  transition: all 0.3s;
+}
+.he__content {
+  visibility: hidden;
+  display: none;
+}
+.he_content_info{
+  margin: 20px 0;
+  list-style-type: none;
+}
+.he_content_info::selection,
+.hexagon-element-title::selection {
+  background: transparent;
+}
+.he1-active {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  width: 424px;
+  height: 367px;
+  left: 5% !important;
+  top: 6% !important;
+  z-index: 1;
+}
+.he1-active .hexagon-element-title {
+  top: 9px !important;
+  position: absolute;
+  visibility: visible;
+  color: white;
+  left: 48% !important;
+}
+.he1-active .he__content {
+  visibility: visible;
+  display: block;
+  color: white;
+  text-align: center;
+  position: relative;
+  width: 75%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+.hexagon-element-title {
+  visibility: hidden;
+}
+.hexagon__item:hover .hexagon-element-title {
+  visibility: visible;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.6s;
+}
+.hexagon-element-1 {
+  background: url("../image/space.jpg");
+  background-position: center;
+  background-size: cover;
+  left: 36%;
+  top: 37%;
+}
+.hexagon-element-1-clicked{
+  background: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)), url("../image/space.jpg");
+  background-position: center;
+  background-size: cover;
+  left: 36%;
+  top: 37%;
+}
+.hexagon-element-2 {
+  background: url("../image/Galaxy.jpg");
+  background-position: center;
+  background-size: cover;
+  left: 15%;
+  top: 50%;
+}
+.hexagon-element-2-clicked{
+  background: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)), url("../image/Galaxy.jpg");
+  background-position: center;
+  background-size: cover;
+  left: 15%;
+  top: 50%;
+}
+.hexagon-element-3 {
+  background: url("../image/Sky.jpg");
+  background-position: center;
+  background-size: cover;
+  left: 15%;
+  top: 24%;
+}
+.hexagon-element-3-clicked{
+  background: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)), url("../image/Sky.jpg");
+  background-position: center;
+  background-size: cover;
+  left: 15%;
+  top: 24%;
+}
+.hexagon-element-4 {
+  background: url("../image/Space light.jpg");
+  background-position: center;
+  background-size: cover;
+  left: 57%;
+  top: 24%;
+}
+.hexagon-element-4-clicked{
+  background: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)), url("../image/Space light.jpg");
+  background-position: center;
+  background-size: cover;
+  left: 57%;
+  top: 24%;
+}
+.hexagon-element-5 {
+  background: url("../image/pexels-frank-cone-3180831.jpg");
+  background-position: center;
+  background-size: cover;
+  left: 36%;
+  top: 11%;
+}
+.hexagon-element-5-clicked{
+  background: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)), url("../image/pexels-frank-cone-3180831.jpg");
+  background-position: center;
+  background-size: cover;
+  left: 36%;
+  top: 11%;
+}
+.hexagon-element-6 {
+  background: url("../image/pexels-miriam-espacio-2694037.jpg");
+  background-position: center;
+  background-size: cover;
+  left: 57%;
+  top: 50%;
+}
+.hexagon-element-6-clicked{
+  background: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)), url("../image/pexels-miriam-espacio-2694037.jpg");
+  background-position: center;
+  background-size: cover;
+  left: 57%;
+  top: 50%;
+}
+.hexagon-element-7 {
+  background: url("../image/pexels-pixabay-73873.jpg");
+  background-position: center;
+  background-size: cover;
+  left: 36%;
+  top: 63%;
+}
+.hexagon-element-7-clicked{
+  background: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)), url("../image/pexels-pixabay-73873.jpg");
+  background-position: center;
+  background-size: cover;
+  left: 36%;
+  top: 63%;
+}
+.info{
+  margin-bottom: 25px;
+}
+.info__header {
+  text-align: center;
+  font-size: 30px;
+  padding: 12px 0;
+  background: #f1f2f3;
+  color: #5c6470;
+}
+.aboutus_left {
+  background: linear-gradient(rgba(185, 201, 249, 0.2), rgba(138, 164, 245, 0.2)), url("../image/northern Lights.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+.aboutus_right {
+  background-color: RGBA(0, 120, 144, 0.1);
+  height: 350px;
+}
+.aboutus_right__header {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 30px;
+  color: #5c6470;
+}
+.aboutus_right__content {
+  font-family: madefor-text,helveticaneuew01-45ligh,helveticaneuew02-45ligh,helveticaneuew10-45ligh,sans-serif;
+  margin: 40px 20px;
+  font-size: 20px;
+  color: #5c6470;
+}
+.aboutus-button{
+  margin-left: 22px;
+  padding: 8px;
+}
+.col-2__contact-button{
+  text-align: right;
+}
+.contact-button{
+  padding: 8px;
+  margin-right: 40px;
+}
+.row {
+  margin-bottom: 0px;
+}
+.row::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.col-4 {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+.col-3{
+  float: left;
+  width: 33.3%;
+}
+.col-2 {
+  float: left;
+  width: 50%;
+}

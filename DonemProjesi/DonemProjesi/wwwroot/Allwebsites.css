@@ -1,0 +1,26 @@
+﻿.all-websites-container{
+    margin-top: 100px;
+}
+.all-websites-container h2{
+    text-align: center;
+}
+.film-site1 {
+    background: linear-gradient(rgb(255 255 255 / 20%), rgb(4 156 25 / 20%)), url(../image/film-site1.png);
+    width: 66%;
+    height: 300px;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    background-position: center;
+    background-size: cover;
+}
+.cv-site1 {
+    background: linear-gradient(rgb(255 255 255 / 20%), rgb(4 156 25 / 20%)), url(../image/film-site1.png);
+    width: 66%;
+    height: 300px;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    background-position: center;
+    background-size: cover;
+}

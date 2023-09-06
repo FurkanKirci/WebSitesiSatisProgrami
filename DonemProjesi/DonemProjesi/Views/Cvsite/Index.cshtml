@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "CvSite Page";
+    Layout = "LoginLayout";
+}
+
+<header class="header">
+    <a href="#" class="logo">Portfolio.</a>
+    <nav class="navbar">
+        <a href="#" style="--i:1;" class="active">Home</a>
+        <a href="#" style="--i:2;">About</a>
+        <a href="#" style="--i:3;">Skills</a>
+        <a href="#" style="--i:4;">Portfolio</a>
+        <a href="#" style="--i:5;">Contact</a>
+    </nav>
+</header>
+<section class="home">
+    <div class="home-content">
+        <div class="about-me">
+            <h3>Hello, it's Me</h3>
+            <h1>Furkan Kırcı</h1>
+            <h3>And I'm a<span>Full Stack Developer</span></h3>
+            <p>
+                XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+            </p>
+        </div>
+        <div class="social-media">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+        </div>
+        <div class="btn-cv">
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        
+    </div>
+    <div class="home-img">
+        <img src="~/image/pexels-felix-mittermeier-956999.jpg" />
+    </div>
+</section>
+
+@section Scripts{
+    <link rel="stylesheet" href="~/CvSite.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="~/JavaScript/Cvsite.js"></script>
+}

@@ -1,0 +1,239 @@
+@{
+    ViewData["Title"] = "Websites Page";
+    Layout = "LoginLayout";
+}
+
+
+    <header class="main-header">
+        <div class="container">
+            <a href="#" class="main-header__logo navbar-link">MovieApp</a>
+            <nav class="main-nav">
+                <ul class="main-nav__items">
+                    <li class="main-nav__item">
+                        <a href="#" class="navbar-link">Filmler</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#" class="navbar-link">Diziler</a>
+                    </li>
+                    <li class="main-nav__item main-nav__item--login">
+                        <a class="btn-navbar btn btn-outline-secondary" href="#">Login</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="showcase">
+            <div class="content">
+                <h2 class="content__header">Welcome to MovieApp</h2>
+                <h3 class="content__main">
+                    Millions of movies, TV showes and people to discover. Explore Now
+                </h3>
+            </div>
+        </section>
+        <section id="how-it-works">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title">How it works?</h2>
+                    <p>
+                        We will show you step by step how to start watching your favorite
+                        movies & tv shows starting now!
+                    </p>
+                </div>
+
+                <div class="row">
+                    <div class="icon-box col-3" id="icon-box1">
+                        <i class="fas fa-sign-in-alt fa-3x"></i>
+                        <h3>Register</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam
+                            dolor repellendus minus doloribus tenetur accusamus?
+                        </p>
+                    </div>
+                    <div class="icon-box col-3" id="icon-box2">
+                        <i class="fab fa-buffer fa-3x"></i>
+                        <h3>Choose a Plan</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam
+                            dolor repellendus minus doloribus tenetur accusamus?
+                        </p>
+                    </div>
+                    <div class="icon-box col-3" id="icon-box3">
+                        <i class="far fa-smile fa-3x"></i>
+                        <h3>Enjoy Moviies</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam
+                            dolor repellendus minus doloribus tenetur accusamus?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="features">
+            <div class="row">
+                <div class="col-2 features__left"></div>
+                <div class="col-2 features__right">
+                    <h3>Watch all Movies & TV Shows once they get released!</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+                        aperiam deserunt quaerat? Doloremque expedita repellendus adipisci
+                        eligendi nobis illum! Perferendis ab blanditiis eius iste incidunt
+                        esse numquam asperiores hic suscipit.
+                    </p>
+                    <a class="btn btn-outline-secondary" href="#" id="features-btn">View Features</a>
+                </div>
+            </div>
+        </section>
+        <section id="plans">
+            <h2 class="section-title">Become a Premium Mamber</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-3 plan" id="0">
+                        <div class="inner-plan">
+                            <h2>Free</h2>
+                            <h3>0/month</h3>
+                            <ul class="plan__features">
+                                <li>HD available</li>
+                                <li>Unlimited Movies and TC Shows</li>
+                                <li>Watch on your phone & tablet</li>
+                                <li>Download and watch offline</li>
+                                <li>Screens you can watch</li>
+                                <li>First month free</li>
+                            </ul>
+                            <div>
+                                <button class="btn btn-primary">Choose Plan</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 plan plan--featured" id="1">
+                        <div class="inner-plan recomended_plan">
+                            <h2 class="plan__badge">Recomended</h2>
+                            <h2>Basic</h2>
+                            <h3>$9.99/month</h3>
+                            <ul class="plan__features">
+                                <li>HD available</li>
+                                <li>Unlimited Movies and TC Shows</li>
+                                <li>Watch on your phone & tablet</li>
+                                <li>Download and watch offline</li>
+                                <li>Screens you can watch</li>
+                                <li>First month free</li>
+                            </ul>
+                            <div>
+                                <button class="btn btn-primary">Choose Plan</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 plan" id="2">
+                        <div class="inner-plan">
+                            <h2>Premium</h2>
+                            <h3>$19.99/month</h3>
+                            <ul class="plan__features">
+                                <li>HD available</li>
+                                <li>Unlimited Movies and TC Shows</li>
+                                <li>Watch on your phone & tablet</li>
+                                <li>Download and watch offline</li>
+                                <li>Screens you can watch</li>
+                                <li>First month free</li>
+                            </ul>
+                            <div>
+                                <button class="btn btn-primary">Choose Plan</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="counters">
+            <div class="row counter">
+                <div class="col-3">
+                    <span class="counter__item">974</span>
+                    <h4>Filmler</h4>
+                </div>
+                <div class="col-3">
+                    <span class="counter__item">456</span>
+                    <h4>TV Showes</h4>
+                </div>
+                <div class="col-3">
+                    <span class="counter__item">976</span>
+                    <h4>Users</h4>
+                </div>
+            </div>
+        </section>
+        <section class="movies">
+            <h2 class="section-title">Latest Movie & TV Shows</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-3 card-container">
+                        <div class="card">
+                            <img src="img/poster-1.jpeg" alt="" class="card-img img-fluid" />
+                            <div class="card-body">
+                                <h2>Star Wars</h2>
+                                <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Quo voluptas animi asperiores quas repudiandae ut sunt
+                                    laboriosam, porro, temporibus culpa ipsam, ducimus nam illum
+                                    voluptates suscipit fuga perferendis vel tempora.
+                                </p>
+                                <p><button class="btn btn-primary">Details</button></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 card-container">
+                        <div class="card">
+                            <img src="img/poster-2.jpeg" alt="" class="card-img img-fluid" />
+                            <div class="card-body">
+                                <h2>Star Wars</h2>
+                                <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Quo voluptas animi asperiores quas repudiandae ut sunt
+                                    laboriosam, porro, temporibus culpa ipsam, ducimus nam illum
+                                    voluptates suscipit fuga perferendis vel tempora.
+                                </p>
+                                <p><button class="btn btn-primary">Details</button></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 card-container">
+                        <div class="card">
+                            <img src="img/poster-3.jpeg" alt="" class="card-img img-fluid" />
+                            <div class="card-body">
+                                <h2>Star Wars</h2>
+                                <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Quo voluptas animi asperiores quas repudiandae ut sunt
+                                    laboriosam, porro, temporibus culpa ipsam, ducimus nam illum
+                                    voluptates suscipit fuga perferendis vel tempora.
+                                </p>
+                                <p><button class="btn btn-primary">Details</button></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <ul id="footer-links">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Form</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <ul class="footer-social">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-twitter"></a></li>
+                        <li><a href="#" class="fab fa-instagram"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="#body" id="backtotop">
+        <i class="fas fa-chevron-circle-up backto-top"></i>
+    </a>

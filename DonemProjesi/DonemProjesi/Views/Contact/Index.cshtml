@@ -1,0 +1,103 @@
+﻿@{
+    ViewData["Title"] = "Contact Page";
+    Layout = "MainLayout";
+}
+
+<div class="contact-us">
+    <div class="title">
+        <h2>Iletişime geçin</h2>
+    </div>
+    <div class="box">
+        <div class="contact form">
+            <h3>Mesaj Gönder</h3>
+            <form action="">
+                <div class="form-box">
+                    <div class="row50">
+                        <div class="input-box">
+                            <span>İsim</span>
+                            <input type="text" placeholder="Furkan" />
+                        </div>
+                        <div class="input-box">
+                            <span>Soyisim</span>
+                            <input type="text" placeholder="Kırcı" />
+                        </div>
+                    </div>
+                    <div class="row50">
+                        <div class="input-box">
+                            <span>E-mail</span>
+                            <input type="text" placeholder="Ex: someone@example.com" />
+                        </div>
+                        <div class="input-box">
+                            <span>Telefon</span>
+                            <input type="text" placeholder="+90 554 788 88 88" />
+                        </div>
+                    </div>
+                    <div class="row100">
+                        <div class="input-box">
+                            <span>Mesajınız</span>
+                            <textarea name=""
+                                      id=""
+                                      cols="30"
+                                      rows="10"
+                                      placeholder="Mesajınızı buraya yazınız."></textarea>
+                        </div>
+                    </div>
+                    <div class="btn-0-right input-box-button">
+                        <input class="btn-secondary" type="submit" value="Gönder" />
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="contact info">
+            <h3>İletişim Bilgileri</h3>
+            <div class="info-box">
+                <div class="info-box__item">
+                    <span>
+                        <i class="fa-solid fa-location-dot fa-beat fa-lg"></i>
+                    </span>
+                    <p class="contact-icon-phone">Kırıkkale Merkez, Türkiye</p>
+                </div>
+                <div class="info-box__item">
+                    <span><i class="fa-regular fa-envelope fa-beat"></i></span>
+                    <a class="contact-icon-phone" href="#">furkankirci12@hotmail.com</a>
+                </div>
+                <div class="info-box__item">
+                    <span><i class="fa-solid fa-phone fa-beat"></i></span>
+                    <a class="contact-icon-phone" href="#">+90 554 778 88 88</a>
+                </div>
+                <div class="contact-social">
+                    <li>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                </div>
+            </div>
+        </div>
+        <div class="contact map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49015.082022600065!2d33.48790220580764!3d39.8419127096464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4081df188742e1bb%3A0x4f1a4dd9f400e5bc!2zS8SxcsSxa2thbGUsIEvEsXLEsWtrYWxlIE1lcmtlei9LxLFyxLFra2FsZQ!5e0!3m2!1str!2str!4v1680534727505!5m2!1str!2str"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+    </div>
+</div>
+@section Scripts{
+    <link rel="stylesheet" href="~/Contact.css" />
+    <link rel="stylesheet" href="~/buttons.css" />
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="~/style.css">
+}

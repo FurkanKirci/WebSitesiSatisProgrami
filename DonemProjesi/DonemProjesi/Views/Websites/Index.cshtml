@@ -1,0 +1,244 @@
+﻿@{
+    ViewData["Title"] = "Websites Page";
+    Layout = "LoginLayout";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-2-l">
+            <div class="pad">
+                <div class="option-navbar options">
+                    <h4 class="header-navbar-option">
+                        <i class="fa-solid fa-chevron-down" id="logo-navbar"></i>Navbar
+                        Options
+                    </h4>
+                    <div class="option-navbar__items hamburger__elements deactive">
+                        <div class="option">
+                            <label for="Navbar-color">NavigationBar Color:</label>
+                            <input class="Navbar-color"
+                                   type="color"
+                                   name="NavbarColor"
+                                   id=""
+                                   autocomplete="off" />
+                        </div>
+                        <div class="option">
+                            <label for="Navbar-links-color">Headers Color:</label>
+                            <input type="color"
+                                   class="nbar-links-color"
+                                   name="Navbar-links-color"
+                                   autocomplete="off" />
+                        </div>
+                        <p></p>
+                        <div class="option">
+                            <label for="btn--navbar-select">Button Style:</label>
+                            <select class="btn-navbar-select" name="btn-navbar-select">
+                                <option value="btn-primary">external primary</option>
+                                <option value="btn-secondary">
+                                    external secondary
+                                </option>
+                                <option value="btn-outline-primary">
+                                    internal primary
+                                </option>
+                                <option value="btn-outline-secondary" selected>
+                                    internal secondary
+                                </option>
+                            </select>
+                        </div>
+                        <p></p>
+                        <div class="option">
+                            <label for="btn-navbar-color">Button Color:</label>
+                            <input type="color"
+                                   class="btn-navbar-color"
+                                   name="btn-navbar-color"
+                                   autocomplete="off" />
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase-option options">
+                    <h4 class="header-showcase-option">
+                        <i class="fa-solid fa-chevron-down" id="logo-showcase"></i>showcase Options
+                    </h4>
+                    <div class="option-showcase__items hamburger__elements deactive">
+                        <div class="option">
+                            <label for="showcase-header">Showcase Header:</label>
+                            <input type="text" name="showcase-header" class="showcase-header input-text-element" autocomplete="off">
+                        </div>
+                        <div class="option">
+                            <label for="showcase-content">Showcase Content:</label>
+                            <input type="text" name="showcase-content" class="showcase-content input-text-element" autocomplete="off">
+                        </div>
+                    </div>
+                </div>
+                <div class="howitworks-option options">
+                    <h4 class="header-howitworks-option">
+                        <i class="fa-solid fa-chevron-down" id="logo-howitworks"></i>howitworks Options
+                    </h4>
+                    <div class="option-howitworks__items hamburger__elements deactive">
+                        <div class="option">
+                            <label for="howitworks-icon-colors">İcon Colors</label>
+                            <input type="color" name="howitworks-icon-colors" class="howitworks-icon-colors">
+                        </div>
+                        <div class="option">
+                            <input type="radio" id="control-inputbox1" name="conrol" checked onchange="HowitworksRadioChecked(this)">
+                            <label for="control">İconbox 1</label>
+                            <input type="radio" id="control-inputbox2" name="conrol" onchange="HowitworksRadioChecked(this)">
+                            <label for="control">İconbox 2</label>
+                            <input type="radio" id="control-inputbox3" name="conrol" onchange="HowitworksRadioChecked(this)">
+                            <label for="control">İconbox 3</label>
+                        </div>
+                        <div class="option">
+                            <label for="iconbox1-header">iconbox Header:</label>
+                            <input type="text" name="iconbox1-header" class=" input-text-element" autocomplete="off" id="iconbox-header-input" oninput="ChangeHowitworksHeaders(this)">
+                        </div>
+                        <div class="option">
+                            <label for="iconbox2-header">iconbox Content:</label>
+                            <input type="text" name="iconbox2-header" class="iconbox2-header input-text-element" autocomplete="off" id="iconbox-content-input" oninput="ChangeHowitworksHeaders(this)">
+                        </div>
+                        <div class="option">
+                            <button class="howitworks-swap-icons" onclick="SwapIcons()">Swap</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="features-option options">
+                    <h4 class="header-features-option">
+                        <i class="fa-solid fa-chevron-down" id="logo-features"></i>features Options
+                    </h4>
+                    <div class="option-features__items hamburger__elements deactive">
+                        <div class="option">
+                            <label for="features-header">Features Header</label>
+                            <input type="text" id="features-header-input" class="input-text-element" name="features-header">
+                        </div>
+                        <div class="option">
+                            <label for="features-header">Features Content</label>
+                            <input type="text" id="features-content-input" class="input-text-element" name="features-header">
+                        </div>
+                        <div class="option">
+                            <label for="btn-features-select">Button Style:</label>
+                            <select class="btn-features-select" name="btn-features-select">
+                                <option value="btn-primary">external primary</option>
+                                <option value="btn-secondary">
+                                    external secondary
+                                </option>
+                                <option value="btn-outline-primary">
+                                    internal primary
+                                </option>
+                                <option value="btn-outline-secondary" selected>
+                                    internal secondary
+                                </option>
+                            </select>
+                        </div>
+                        <div class="option">
+                            <label for="features-btn-color">Button Color:</label>
+                            <input type="color" name="features-btn-color" class="features-btn-color">
+                        </div>
+                    </div>
+                </div>
+                <div class="plans-option options">
+                    <h4 class="header-plans-option">
+                        <i class="fa-solid fa-chevron-down" id="logo-plan"></i>plans
+                        Options
+                    </h4>
+                    <div class="option-plan__items hamburger__elements deactive">
+                        <div class="option">
+
+                            <button class="add-plan">Plan Kartı Ekle</button>
+
+                        </div>
+                        <div class="option">
+                            <button class="remove-plan">Son kartı sil</button>
+                        </div>
+                        <div class="option">
+                            <button class="clear-plans">Plan Kartlarını sıfırla</button>
+                        </div>
+                        <div class="card-options" style="margin-top: 10px;">
+                            <h5 onclick="UpdateCardOptions()" class="header-plans-option__card-option"><i class="fa-solid fa-chevron-down" id="logo-card-plan-option"></i>Card Options</h5>
+                            <div class="Card-option-buttons hamburger__elements deactive">
+                            </div>
+                            <!-- <label for="card-header">Card Basligi</label>
+                            <input type="text" class="card-header" name="card-header">
+                            <label for="card-price">Card Fiyati</label>
+                            <input type="text" class="card-price" name="card-price">
+                            <label for="card-content">Card icerigi</label>
+                            <input type="text" class="card-content" name="card-content">
+                            <i class="fa-regular fa-square-plus"></i>
+                            <i class="fa-regular fa-square-minus"></i> -->
+                        </div>
+
+                    </div>
+                </div>
+                <div class="counters-option options">
+                    <h4 class="header-counters-option">
+                        <i class="fa-solid fa-chevron-down" id="logo-counters"></i>counters Options
+                    </h4>
+                    <div class="option-counters__items hamburger__elements deactive">
+                        <div class="option">
+                            <label for="counter-bg">Ground color:</label>
+                            <input type="color" name="counter-bg" id="counter-bg">
+                        </div>
+                        <div class="option">
+                            <label for="counter-color">Font Color:</label>
+                            <input type="color" name="counter-color" id="counter-color">
+                        </div>
+                    </div>
+                </div>
+                <div class="movies-option options">
+                    <h4 class="header-movies-option">
+                        <i class="fa-solid fa-chevron-down" id="logo-navbar"></i>movies
+                        Options
+                    </h4>
+                </div>
+                <div class="btn-0-right okey-button-div" href="/payment">
+                    <a class="btn-primary okey-button" href="/Payment">Satın Al</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-2-r">
+            <iframe class="website"
+                    src="/Response"
+                    frameborder="0"></iframe>
+        </div>
+    </div>
+</div>
+<div class="cc">
+    <div class="plan-websites">
+        <div class="inner-plan-websites">
+            <h2><input type="text" name="h2-tag" class="input-text-element h2" placeholder="Başlık" autocomplete="off"></h2>
+            <h3><input type="text" name="h3-tag" class="input-text-element h3" placeholder="Fiyat" autocomplete="off"></h3>
+            <ul class="plan__features-websites">
+                <li><input type="text" name="li" class="input-text-element" placeholder="Kart içinde verilecek hizmet" autocomplete="off"></li>
+
+            </ul>
+            <i class="fa-regular fa-square-plus btn-li" onclick="liEkle()"></i>
+            <i class="fa-regular fa-square-minus btn-li" onclick="liSil()"></i>
+            <div>
+                <button class="btn-websites btn-primary-websites">Choose Plan</button>
+            </div>
+
+            <div class="card-accept-btn">
+                <div class="col-2">
+                    <div class="btn-1">
+
+                        <p class="btn-primary" onclick="Vazgec()">Vazgeç</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="btn-0-right">
+
+                        <p class="btn-primary" onclick="Onayla()">Onayla</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <p class="idCard deactive"></p>
+</div>
+@section Scripts{
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="~/websiter.css" />
+    <link rel="stylesheet" href="~/buttons.css">
+    <script src="~/JavaScript/websites.js"></script>
+}

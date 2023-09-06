@@ -1,0 +1,57 @@
+.btn-0 {
+  border: 2px solid #00adb5;
+  display: inline-block;
+  clip-path: polygon(25% 0, 100% 0, 100% 50%, 75% 100%, 0 100%, 0 70%, 0 50%);
+  transition: all 0.5s;
+  position: relative;
+}
+.btn-0:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+.btn-0-right{
+  clip-path: polygon(0 0, 75% 0%, 100% 50%, 100% 100%, 100% 100%, 25% 100%, 0% 50%, 0 0);
+  border: 3px solid #00adb5;
+  display: inline-block;
+  transition: all 0.5s;
+  position: relative;
+}
+.btn-0-right-black{
+  clip-path: polygon(0 0, 75% 0%, 100% 50%, 100% 100%, 100% 100%, 25% 100%, 0% 50%, 0 0);
+  border: 3px solid #222831;
+  display: inline-block;
+  transition: all 0.5s;
+  position: relative;
+}
+.btn-1 {
+  border: 3px solid #00adb5;
+  display: inline-block;
+  clip-path: polygon(25% 0, 100% 0, 100% 50%, 75% 100%, 0 100%, 0 70%, 0 50%);
+  position: relative;
+}
+.btn-primary {
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 24px;
+  color: #fff;
+  background-color: #222831;
+  transition: all 0.5s;
+}
+.btn-primary:hover {
+  color: #00adb5 !important;
+  background-color: #fff;
+  transition: all 0.5s;
+}
+.btn-secondary{
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 24px;
+  color: #fff;
+  background-color: #00adb5;
+  transition: all 0.5s;
+}
+.btn-secondary:hover{
+  color: #00adb5 !important;
+  background-color: #222831;
+  transition: all 0.5s;
+}

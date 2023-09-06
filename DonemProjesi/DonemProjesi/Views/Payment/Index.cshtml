@@ -1,0 +1,159 @@
+﻿@{
+    ViewData["Title"] = "Payment Page";
+    Layout = "MainLayout";
+}
+@*<header class="main-header">
+    <div class="container">
+        <a href="#" class="main-header__logo">
+            <img src="../image/white.jpg" alt="" class="img-logo" />FWM<img src="../image/white.jpg"
+                                                                            alt=""
+                                                                            class="img-logo" />
+        </a>
+
+        <nav class="main-nav">
+            <ul class="main-nav__items">
+                <li class="main-nav__item"><a href="Main.html">Ana Sayfa</a></li>
+                <li class="main-nav__item"><a href="">Web Siteleri</a></li>
+                <li class="main-nav__item"><a href="Contact.html">İletişim</a></li>
+                <li class="main-nav__item main-nav__item--login">
+                    <div class="btn-0">
+                        <a href="../HTML/Login.html" class="btn-primary">Giriş Yap/Kayıt ol</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>*@
+<section id="plans">
+    <h2 class="section-title">Premium Özelliklere Sahip Ol</h2>
+    <div class="container-options">
+        <div class="row">
+            <div class="col-3 plan">
+                <div class="inner-plan basic">
+                    <h2>FWM Basic</h2>
+                    <h3>10.99$</h3>
+                    <ul class="plan__features">
+                        <br>
+                        <li>Oluşturulan İnternet Sitesi</li>
+                        <br>
+                        <li>Kaynak Kod Korunumu</li>
+                        <br>
+                        <li>SSL/TSL Sertfikası</li>
+                    </ul>
+                    <br>
+                    <div class="btn-1">
+                        <button class="btn-primary btn-basic" onclick="InnerPlanAnimationBasic()">Choose Plan</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 plan plan--featured">
+                <div class="inner-plan recomended_plan">
+                    <h2 class="plan__badge">ÖNERİLEN</h2>
+                    <h2>FWM Premium</h2>
+                    <h3>$19.99/Aylık</h3>
+                    <ul class="plan__features">
+                        <li>Oluşturulan İnternet Sitesi</li>
+                        <li>Kaynak Kod Korunumu</li>
+                        <li>SSL/TSL Sertfikası</li>
+                        <li>Aylık Bakım</li>
+                        <li>Kaynak Kod Alıcıya Da Verilir</li>
+                    </ul>
+                    <div class="btn-1">
+                        <button class="btn-primary btn-premium" onclick="InnerPlanAnimationRecomend()">Choose Plan</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 plan">
+                <div class="inner-plan plan-hexagone">
+                    <h2>FWM Hexagon</h2>
+                    <h3>$49.99/Aylık</h3>
+                    <ul class="plan__features">
+                        <li>Oluşturulan İnternet Sitesi</li>
+                        <li>Kaynak Kod Korunumu</li>
+                        <li>SSL/TSL Sertfikası</li>
+                        <li>Aylık Bakım</li>
+                        <li>Kaynak Kod Alıcıya Da Verilir</li>
+                        <li>İnternet Sitesinin Mobil Uygulaması</li>
+                        <li>Siber Güvenlik Koruması</li>
+                    </ul>
+                    <div class="btn-1">
+                        <button class="btn-primary btn-hexagone" onclick="InnerPlanAnimationHexagone()">Choose Plan</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container-payment">
+    <div class="card-container">
+        <div class="front">
+            <div class="image">
+                <img src="../image/cardbg.jpg" alt="" />
+                <img src="../image/visa.png" alt="" />
+            </div>
+            <div class="card-number-box">XXXX XXXX XXXX XXXX</div>
+            <div class="flexbox">
+                <div class="box">
+                    <span>Kart Sahibi</span>
+                    <div class="card-holder-name">Full Name</div>
+                </div>
+                <div class="box">
+                    <span>Son Geçerlilik Tarihi</span>
+                    <div class="expiration">
+                        <span class="exp-month">mm /</span>
+                        <span class="exp-year">yy</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="back">
+            <div class="stripe"></div>
+            <div class="box">
+                <span>CVV</span>
+                <div class="cvv-box"></div>
+                <img src="../image/visa.png" alt="" />
+            </div>
+        </div>
+    </div>
+    <form action="">
+        <div class="input-box">
+            <span>Kart Numarası</span>
+            <input type="text" maxlength="19" class="card-number-input" />
+        </div>
+        <div class="input-box">
+            <span>Kart Sahibi</span>
+            <input type="text" class="card-holder-input" />
+        </div>
+        <div class="flexbox">
+            <div class="input-box">
+                <span>Son kullanım Ay</span>
+                <select name=""
+                        id=""
+                        class="month-input"
+                        oninput="GetMonthToCard()"></select>
+            </div>
+            <div class="input-box">
+                <span>Son kullanım yıl</span>
+                <select name=""
+                        id=""
+                        class="year-input"
+                        oninput="GetYearToCard()"></select>
+            </div>
+            <div class="input-box">
+                <span>CVV</span>
+                <input type="text" maxlength="3" class="cvv-input" />
+            </div>
+        </div>
+        <div class="btn-1 submit-div">
+            <input type="submit"
+                   value="Satın Al"
+                   class="form-satinal btn-primary" />
+        </div>
+    </form>
+</div>
+@section Scripts{
+    <link rel="stylesheet" href="~/Payment.css" />
+    <link rel="stylesheet" href="~/buttons.css" />
+    <link rel="stylesheet" href="~/style.css" />
+    <script src="~/JavaScript/Script.js"></script>
+}

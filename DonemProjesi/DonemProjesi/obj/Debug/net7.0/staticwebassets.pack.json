@@ -1,0 +1,425 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\DonemProjesi.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DonemProjesi.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\8-UygulamaResponsive.html",
+      "PackagePath": "staticwebassets\\8-UygulamaResponsive.html"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\Allwebsites.css",
+      "PackagePath": "staticwebassets\\Allwebsites.css"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\Contact.css",
+      "PackagePath": "staticwebassets\\Contact.css"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\CvSite.css",
+      "PackagePath": "staticwebassets\\CvSite.css"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\JavaScript\\Cvsite.js",
+      "PackagePath": "staticwebassets\\JavaScript\\Cvsite.js"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\JavaScript\\MainPageScript.js",
+      "PackagePath": "staticwebassets\\JavaScript\\MainPageScript.js"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\JavaScript\\Script.js",
+      "PackagePath": "staticwebassets\\JavaScript\\Script.js"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\JavaScript\\websites copy.js",
+      "PackagePath": "staticwebassets\\JavaScript\\websites copy.js"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\JavaScript\\websites.js",
+      "PackagePath": "staticwebassets\\JavaScript\\websites.js"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\Payment.css",
+      "PackagePath": "staticwebassets\\Payment.css"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\aboutus.css",
+      "PackagePath": "staticwebassets\\aboutus.css"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\buttons.css",
+      "PackagePath": "staticwebassets\\buttons.css"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\cssResponse\\base.css",
+      "PackagePath": "staticwebassets\\cssResponse\\base.css"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\cssResponse\\buttons.css",
+      "PackagePath": "staticwebassets\\cssResponse\\buttons.css"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\cssResponse\\forms.css",
+      "PackagePath": "staticwebassets\\cssResponse\\forms.css"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\cssResponse\\styles.css",
+      "PackagePath": "staticwebassets\\cssResponse\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\image\\Galaxy.jpg",
+      "PackagePath": "staticwebassets\\image\\Galaxy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\image\\Sky.jpg",
+      "PackagePath": "staticwebassets\\image\\Sky.jpg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\image\\Space light.jpg",
+      "PackagePath": "staticwebassets\\image\\Space light.jpg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\image\\cardbg.jpg",
+      "PackagePath": "staticwebassets\\image\\cardbg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\image\\film-site1.png",
+      "PackagePath": "staticwebassets\\image\\film-site1.png"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\image\\northern Lights.jpg",
+      "PackagePath": "staticwebassets\\image\\northern Lights.jpg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\image\\pexels-achraf-alan-1477156.jpg",
+      "PackagePath": "staticwebassets\\image\\pexels-achraf-alan-1477156.jpg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\image\\pexels-dids-1276429.jpg",
+      "PackagePath": "staticwebassets\\image\\pexels-dids-1276429.jpg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\image\\pexels-faik-akmd-1025469.jpg",
+      "PackagePath": "staticwebassets\\image\\pexels-faik-akmd-1025469.jpg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\image\\pexels-felix-mittermeier-956999.jpg",
+      "PackagePath": "staticwebassets\\image\\pexels-felix-mittermeier-956999.jpg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\image\\pexels-frank-cone-3180831.jpg",
+      "PackagePath": "staticwebassets\\image\\pexels-frank-cone-3180831.jpg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\image\\pexels-miriam-espacio-2694037.jpg",
+      "PackagePath": "staticwebassets\\image\\pexels-miriam-espacio-2694037.jpg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\image\\pexels-pixabay-73873.jpg",
+      "PackagePath": "staticwebassets\\image\\pexels-pixabay-73873.jpg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\image\\space.jpg",
+      "PackagePath": "staticwebassets\\image\\space.jpg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\image\\visa.png",
+      "PackagePath": "staticwebassets\\image\\visa.png"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\image\\white.jpg",
+      "PackagePath": "staticwebassets\\image\\white.jpg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\imgResponse\\features.jpeg",
+      "PackagePath": "staticwebassets\\imgResponse\\features.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\imgResponse\\pexels-markus-spiske-1002638.jpg",
+      "PackagePath": "staticwebassets\\imgResponse\\pexels-markus-spiske-1002638.jpg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\imgResponse\\poster-1.jpeg",
+      "PackagePath": "staticwebassets\\imgResponse\\poster-1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\imgResponse\\poster-2.jpeg",
+      "PackagePath": "staticwebassets\\imgResponse\\poster-2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\imgResponse\\poster-3.jpeg",
+      "PackagePath": "staticwebassets\\imgResponse\\poster-3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\imgResponse\\poster-4.jpeg",
+      "PackagePath": "staticwebassets\\imgResponse\\poster-4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\login.css",
+      "PackagePath": "staticwebassets\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\furka\\source\\repos\\DonemProjesi\\DonemProjesi\\wwwroot\\websiter.css",
+      "PackagePath": "staticwebassets\\websiter.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.DonemProjesi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.DonemProjesi.props",
+      "PackagePath": "build\\DonemProjesi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.DonemProjesi.props",
+      "PackagePath": "buildMultiTargeting\\DonemProjesi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.DonemProjesi.props",
+      "PackagePath": "buildTransitive\\DonemProjesi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

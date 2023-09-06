@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewData["Title"] = "Login Page";
+    Layout = "LoginLayout";
+}
+<div class="container">
+    <div class="login-container">
+        <h2>Giriş Yap</h2>
+        <form asp-action="LogIn" asp-controller="Login" method="post">
+            <div class="input-block"> 
+                <input  type="text" name="username" required spellcheck="false" autocomplete="off" />
+                <span class="placeholder">Username</span>
+            </div>
+            <div class="input-block">
+                
+                <input  type="password" name="password" required spellcheck="false" autocomplete="off" />
+                <span class="placeholder">Password</span>
+            </div>
+            <button type="submit">Giriş Yap</button>
+            <a href="/SignUp" class="signup-direct">Kayıt Ol</a>
+            <a href="/Main" class="signup-direct">Ana Sayfa</a>
+        </form>
+    </div>
+</div>
+@section Scripts{
+    <link rel="stylesheet" href="~/login.css" />
+}
